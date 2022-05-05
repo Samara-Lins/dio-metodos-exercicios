@@ -6,16 +6,16 @@ public class Saudacao {
 	
 	public Saudacao() {}
 	
-	public String bomDia() {
-		return "Bom dia!";
+	public void bomDia() {
+		System.out.println("Bom dia!");
 	}
 	
-	public String boaTarde() {
-		return "Boa tarde!";
+	public void boaTarde() {
+		System.out.println("Boa tarde!");
 	}
 	
-	public String boaNoite() {
-		return "Boa noite!";
+	public void boaNoite() {
+		 System.out.println("Boa noite!");
 	}
 	
 	public static void main(String[] args) {
@@ -30,6 +30,7 @@ public class Saudacao {
 		if (agora >= 18 && agora <= 23) {
 			saudacao.boaNoite();
 		}
+		System.out.println(agora);
 	}
 
 }
